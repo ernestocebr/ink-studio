@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+header #top {
+    background-color: #152426;
+    font-size: .8em;
+}
+
+header #top i {
+    color: #eeb068;    
+}
+
+header img {
+    border: none;
+}
+
+nav {
+    background-color: #152426;
+    font-size: .8em;
+    opacity: 0;
+}
+
+nav a {
+    color: #eeb068;
+    transition: .3s ease-in;
+}
+
+nav a:hover {
+    color: white;
+    transition: .3s ease-in;
+}
+
+nav img {
+    width: 20%;
+    border-radius: 50%;
+    border: 2px solid rgba(238, 176, 104, 0.5);
+}
+
+nav .logo {
+    font-family: 'Yellowtail', cursive;
+}
+
+#logoFirma {
+    width: 15%;
+    border-radius: 50%;
+    border: 2px solid rgba(238, 176, 104, 0.5);
+}
+
+#inicio {
+    background-image: url(img/tatuaje.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    font-family: 'Yellowtail', cursive;
+    height: 50vh;
+}
+
+#logo h2 {
+    font-size: 7em;
+}
+
+#logo i {
+    color: #eeb068;
+    font-size: .8em;
+}
+
+#logo h3 {
+    font-size: 2em;
+    margin-left: 3em;
+}
+
+#logo span {
+    color: #eeb068;
+}
+
+#logo .btns {
+    margin-left: 14em;
+    font-family: 'Nunito', sans-serif;
+}
+
+.btns a {
+    padding: .8em;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    border: 3px solid #eeb068;
+    border-radius: 15px;
+    transition: .3s ease-in;
+    font-size: 1em;
+    margin: 0 .1em;
+}
+
+.btns a:hover {
+    cursor: pointer;
+    background-color: #eeb068;
+    transition: .3s ease-in;
+}
+
+#redesSociales div {
+    background-color: #152426;
+    border-radius: 15px;
+}
+
+#redesSociales a {
+    transition: .3s ease-in;
+    font-size: .7em;
+}
+
+#redesSociales a i {
+    font-size: 3em;
+    color: #eeb068;
+}
+
+#redesSociales a i:hover {
+    cursor: pointer;
+    transition: .3s ease-in;
+    color: white;
+}
+
+/*---------------------------------------------*/
+
+#sobreNosotros {
+    background-image: url("img/studiobig.jpg");
+    background-color: rgba(21, 36, 38, 1);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    border: 5px solid rgba(238, 176, 104, 0.5);
+}
+
+footer {
+    background-color: #152426;
+    font-size: .8em;
+}
+
+footer {
+    font-size: .8em;
+    line-height: .7em;
+}
+
+footer a {
+    color: #eeb068;
+    transition: .3s ease-in;
+}
+
+footer a:hover {
+    color: #fd9825;
+    transition: .3s ease-in;
+}
+/*
+.texto {
+    background-color: #152426a5;
+}
+*/
+.texto {
+    background-color: #152426d5;
+    border: 3px solid #6c757536;
+    text-align: justify;
+}
+
+.ink {
+    font-family: 'Yellowtail', cursive;    
+}
+
+.ink span {
+    color: #eeb068;    
+}
+
+#porqueNosotros {
+    background-color: #152426;
+    background-image: url("img/tattoo-session.jpg");
+    background-color: rgba(21, 36, 38, 1);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    border-bottom: 2px solid rgba(238, 176, 104, 0.5);
+}
+
+#galeria {
+    background-image: url("img/galeriaFondo.jpg");
+    background-color: rgba(21, 36, 38, 1);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#galeria .row .container {
+    transition: .3s ease-in;
+}
+
+#galeria .row .container:hover {
+    cursor: pointer;
+    scale: 1.05;
+    transition: .3s ease-in;
+}
+
+#contacto {
+    background-image: url("img/studio-outside.jpg");
+    background-color: rgba(21, 36, 38, 1);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+i {
+    color: #eeb068;
+}
+
+.panelControl .card {
+    transition: .2s ease-in;
+}
+
+.panelControl .card:hover {
+    cursor: pointer;
+    scale: 1.05;
+    transition: .2s ease-in;
+}
+
+.card {
+    background-color: #0d1819;
+    border: 3px solid #6c757536;
+}
+
+#registrate {
+    background-image: url("img/tattoo-machine.png");
+    background-color: rgba(21, 36, 38, 1);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+#galeria img {
+    border: 1px solid transparent;
+}
+
+.cuaderno {
+    background-image: url("img/notebook-broken.jpg");
+    background-color: rgba(21, 36, 38, 1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 15px 15px 0px;
+    line-height: 1.5em;
+    font-size: 1.5em;
+}
+
+.cuaderno h2 {
+    text-decoration: underline;
+    text-decoration-color: #bb3055;
+}
+
+.fecha {
+    font-size: .8em;
+    font-family: 'Special Elite', cursive;
+}
